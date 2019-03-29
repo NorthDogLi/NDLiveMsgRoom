@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "EWLevelManager.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [[EWLevelManager sharedInstance] setup];                // 初始化等级
+    
     return YES;
 }
 

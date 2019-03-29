@@ -15,6 +15,30 @@
 		6A6146D12244DF740096CCE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6146D02244DF740096CCE0 /* main.m */; };
 		6A6146DB2244DF740096CCE0 /* NDLiveMsgRoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6146DA2244DF740096CCE0 /* NDLiveMsgRoomTests.m */; };
 		6A6146E62244DF740096CCE0 /* NDLiveMsgRoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6146E52244DF740096CCE0 /* NDLiveMsgRoomUITests.m */; };
+		6A6147062244E2170096CCE0 /* NDLiveMsgBassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6146F62244E2160096CCE0 /* NDLiveMsgBassCell.m */; };
+		6A6147072244E2170096CCE0 /* NDMsgNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6146F82244E2170096CCE0 /* NDMsgNormalCell.m */; };
+		6A6147082244E2170096CCE0 /* NDMsgSynthesizeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6146F92244E2170096CCE0 /* NDMsgSynthesizeCell.m */; };
+		6A6147092244E2170096CCE0 /* NDMsgCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6146FD2244E2170096CCE0 /* NDMsgCommentCell.m */; };
+		6A61470A2244E2170096CCE0 /* NDMsgJoinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6146FF2244E2170096CCE0 /* NDMsgJoinCell.m */; };
+		6A61470B2244E2170096CCE0 /* NDMsgRemindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6147022244E2170096CCE0 /* NDMsgRemindCell.m */; };
+		6A61470C2244E2170096CCE0 /* NDMsgListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6147042244E2170096CCE0 /* NDMsgListTableView.m */; };
+		6A61470D2244E2170096CCE0 /* NDMsgGiftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6147052244E2170096CCE0 /* NDMsgGiftCell.m */; };
+		6A6147102244E3C90096CCE0 /* EWLayoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A61470E2244E3C90096CCE0 /* EWLayoutButton.m */; };
+		6A6147132244E69F0096CCE0 /* NDMsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6147122244E69F0096CCE0 /* NDMsgModel.m */; };
+		6A6147192244E7930096CCE0 /* NDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6147182244E7930096CCE0 /* NDUserModel.m */; };
+		6A63DC73224DF4620001A665 /* WHDebugMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63DC65224DF4620001A665 /* WHDebugMonitor.m */; };
+		6A63DC74224DF4620001A665 /* WHDebugMemoryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63DC66224DF4620001A665 /* WHDebugMemoryMonitor.m */; };
+		6A63DC75224DF4620001A665 /* WHDebugToolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63DC67224DF4620001A665 /* WHDebugToolManager.m */; };
+		6A63DC76224DF4620001A665 /* WHDebugCpuMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63DC6A224DF4620001A665 /* WHDebugCpuMonitor.m */; };
+		6A63DC77224DF4620001A665 /* WHDebugFPSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63DC6D224DF4620001A665 /* WHDebugFPSMonitor.m */; };
+		6A63DC78224DF4620001A665 /* WHDebugTempVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63DC70224DF4620001A665 /* WHDebugTempVC.m */; };
+		6A63DC79224DF4620001A665 /* WHDebugConsoleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63DC71224DF4620001A665 /* WHDebugConsoleLabel.m */; };
+		6AB0327C224B20F6009D9565 /* NDLeveBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0327B224B20F6009D9565 /* NDLeveBgView.m */; };
+		6AB03282224B21B6009D9565 /* NDMsgAttributeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB03281224B21B6009D9565 /* NDMsgAttributeModel.m */; };
+		6AB03286224B262D009D9565 /* NDGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB03285224B262D009D9565 /* NDGiftModel.m */; };
+		6AB03289224B5D60009D9565 /* EWLevelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB03288224B5D60009D9565 /* EWLevelManager.m */; };
+		6AB0328C224B600C009D9565 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0328B224B600C009D9565 /* UIView+Frame.m */; };
+		763BD73E42C8ABB7B2F2472F /* libPods-NDLiveMsgRoom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F05AC83F5B364BE7410BC606 /* libPods-NDLiveMsgRoom.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43CCAA4C9D1BC593F8C32619 /* Pods-NDLiveMsgRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDLiveMsgRoom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NDLiveMsgRoom/Pods-NDLiveMsgRoom.debug.xcconfig"; sourceTree = "<group>"; };
 		6A6146BE2244DF730096CCE0 /* NDLiveMsgRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NDLiveMsgRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6146C12244DF730096CCE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A6146C22244DF730096CCE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +76,55 @@
 		6A6146E12244DF740096CCE0 /* NDLiveMsgRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NDLiveMsgRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6146E52244DF740096CCE0 /* NDLiveMsgRoomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDLiveMsgRoomUITests.m; sourceTree = "<group>"; };
 		6A6146E72244DF740096CCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6146F62244E2160096CCE0 /* NDLiveMsgBassCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDLiveMsgBassCell.m; sourceTree = "<group>"; };
+		6A6146F72244E2170096CCE0 /* NDMsgNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDMsgNormalCell.h; sourceTree = "<group>"; };
+		6A6146F82244E2170096CCE0 /* NDMsgNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDMsgNormalCell.m; sourceTree = "<group>"; };
+		6A6146F92244E2170096CCE0 /* NDMsgSynthesizeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDMsgSynthesizeCell.m; sourceTree = "<group>"; };
+		6A6146FA2244E2170096CCE0 /* NDLiveMsgBassCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDLiveMsgBassCell.h; sourceTree = "<group>"; };
+		6A6146FB2244E2170096CCE0 /* NDMsgJoinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDMsgJoinCell.h; sourceTree = "<group>"; };
+		6A6146FC2244E2170096CCE0 /* NDMsgListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDMsgListTableView.h; sourceTree = "<group>"; };
+		6A6146FD2244E2170096CCE0 /* NDMsgCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDMsgCommentCell.m; sourceTree = "<group>"; };
+		6A6146FE2244E2170096CCE0 /* NDMsgCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDMsgCommentCell.h; sourceTree = "<group>"; };
+		6A6146FF2244E2170096CCE0 /* NDMsgJoinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDMsgJoinCell.m; sourceTree = "<group>"; };
+		6A6147002244E2170096CCE0 /* NDMsgGiftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDMsgGiftCell.h; sourceTree = "<group>"; };
+		6A6147012244E2170096CCE0 /* NDMsgRemindCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDMsgRemindCell.h; sourceTree = "<group>"; };
+		6A6147022244E2170096CCE0 /* NDMsgRemindCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDMsgRemindCell.m; sourceTree = "<group>"; };
+		6A6147032244E2170096CCE0 /* NDMsgSynthesizeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDMsgSynthesizeCell.h; sourceTree = "<group>"; };
+		6A6147042244E2170096CCE0 /* NDMsgListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDMsgListTableView.m; sourceTree = "<group>"; };
+		6A6147052244E2170096CCE0 /* NDMsgGiftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDMsgGiftCell.m; sourceTree = "<group>"; };
+		6A61470E2244E3C90096CCE0 /* EWLayoutButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLayoutButton.m; sourceTree = "<group>"; };
+		6A61470F2244E3C90096CCE0 /* EWLayoutButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWLayoutButton.h; sourceTree = "<group>"; };
+		6A6147112244E69F0096CCE0 /* NDMsgModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDMsgModel.h; sourceTree = "<group>"; };
+		6A6147122244E69F0096CCE0 /* NDMsgModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDMsgModel.m; sourceTree = "<group>"; };
+		6A6147172244E7930096CCE0 /* NDUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDUserModel.h; sourceTree = "<group>"; };
+		6A6147182244E7930096CCE0 /* NDUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDUserModel.m; sourceTree = "<group>"; };
+		6A63DC65224DF4620001A665 /* WHDebugMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHDebugMonitor.m; sourceTree = "<group>"; };
+		6A63DC66224DF4620001A665 /* WHDebugMemoryMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHDebugMemoryMonitor.m; sourceTree = "<group>"; };
+		6A63DC67224DF4620001A665 /* WHDebugToolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHDebugToolManager.m; sourceTree = "<group>"; };
+		6A63DC68224DF4620001A665 /* WHDebugCpuMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHDebugCpuMonitor.h; sourceTree = "<group>"; };
+		6A63DC69224DF4620001A665 /* WHDebugFPSMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHDebugFPSMonitor.h; sourceTree = "<group>"; };
+		6A63DC6A224DF4620001A665 /* WHDebugCpuMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHDebugCpuMonitor.m; sourceTree = "<group>"; };
+		6A63DC6B224DF4620001A665 /* WHDebugConsoleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHDebugConsoleLabel.h; sourceTree = "<group>"; };
+		6A63DC6C224DF4620001A665 /* WHDebugTempVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHDebugTempVC.h; sourceTree = "<group>"; };
+		6A63DC6D224DF4620001A665 /* WHDebugFPSMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHDebugFPSMonitor.m; sourceTree = "<group>"; };
+		6A63DC6E224DF4620001A665 /* WHDebugToolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHDebugToolManager.h; sourceTree = "<group>"; };
+		6A63DC6F224DF4620001A665 /* WHDebugMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHDebugMonitor.h; sourceTree = "<group>"; };
+		6A63DC70224DF4620001A665 /* WHDebugTempVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHDebugTempVC.m; sourceTree = "<group>"; };
+		6A63DC71224DF4620001A665 /* WHDebugConsoleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHDebugConsoleLabel.m; sourceTree = "<group>"; };
+		6A63DC72224DF4620001A665 /* WHDebugMemoryMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHDebugMemoryMonitor.h; sourceTree = "<group>"; };
+		6AB0327A224B20F6009D9565 /* NDLeveBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDLeveBgView.h; sourceTree = "<group>"; };
+		6AB0327B224B20F6009D9565 /* NDLeveBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDLeveBgView.m; sourceTree = "<group>"; };
+		6AB03280224B21B6009D9565 /* NDMsgAttributeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDMsgAttributeModel.h; sourceTree = "<group>"; };
+		6AB03281224B21B6009D9565 /* NDMsgAttributeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDMsgAttributeModel.m; sourceTree = "<group>"; };
+		6AB03283224B25C1009D9565 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6AB03284224B262D009D9565 /* NDGiftModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDGiftModel.h; sourceTree = "<group>"; };
+		6AB03285224B262D009D9565 /* NDGiftModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDGiftModel.m; sourceTree = "<group>"; };
+		6AB03287224B5D60009D9565 /* EWLevelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWLevelManager.h; sourceTree = "<group>"; };
+		6AB03288224B5D60009D9565 /* EWLevelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLevelManager.m; sourceTree = "<group>"; };
+		6AB0328A224B600C009D9565 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		6AB0328B224B600C009D9565 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F05AC83F5B364BE7410BC606 /* libPods-NDLiveMsgRoom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NDLiveMsgRoom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F0693E97D7A6E444BC5D56 /* Pods-NDLiveMsgRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDLiveMsgRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-NDLiveMsgRoom/Pods-NDLiveMsgRoom.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763BD73E42C8ABB7B2F2472F /* libPods-NDLiveMsgRoom.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +153,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C5251528892142229F8B4E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43CCAA4C9D1BC593F8C32619 /* Pods-NDLiveMsgRoom.debug.xcconfig */,
+				F4F0693E97D7A6E444BC5D56 /* Pods-NDLiveMsgRoom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60250789A89943A6293D53E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F05AC83F5B364BE7410BC606 /* libPods-NDLiveMsgRoom.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A6146B52244DF730096CCE0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +177,8 @@
 				6A6146D92244DF740096CCE0 /* NDLiveMsgRoomTests */,
 				6A6146E42244DF740096CCE0 /* NDLiveMsgRoomUITests */,
 				6A6146BF2244DF730096CCE0 /* Products */,
+				0C5251528892142229F8B4E8 /* Pods */,
+				60250789A89943A6293D53E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +199,16 @@
 				6A6146C22244DF730096CCE0 /* AppDelegate.m */,
 				6A6146C42244DF730096CCE0 /* ViewController.h */,
 				6A6146C52244DF730096CCE0 /* ViewController.m */,
+				6A6147112244E69F0096CCE0 /* NDMsgModel.h */,
+				6A6147122244E69F0096CCE0 /* NDMsgModel.m */,
+				6A6147172244E7930096CCE0 /* NDUserModel.h */,
+				6A6147182244E7930096CCE0 /* NDUserModel.m */,
+				6AB03284224B262D009D9565 /* NDGiftModel.h */,
+				6AB03285224B262D009D9565 /* NDGiftModel.m */,
+				6A63DC4F224DF4550001A665 /* WHDebugTool */,
+				6A61471A2244EC810096CCE0 /* Other */,
+				6A6146F52244E1720096CCE0 /* LiveRoomMsg */,
+				6AB03283224B25C1009D9565 /* PrefixHeader.pch */,
 				6A6146C72244DF730096CCE0 /* Main.storyboard */,
 				6A6146CA2244DF740096CCE0 /* Assets.xcassets */,
 				6A6146CC2244DF740096CCE0 /* LaunchScreen.storyboard */,
@@ -132,6 +236,67 @@
 			path = NDLiveMsgRoomUITests;
 			sourceTree = "<group>";
 		};
+		6A6146F52244E1720096CCE0 /* LiveRoomMsg */ = {
+			isa = PBXGroup;
+			children = (
+				6AB03280224B21B6009D9565 /* NDMsgAttributeModel.h */,
+				6AB03281224B21B6009D9565 /* NDMsgAttributeModel.m */,
+				6A6146FC2244E2170096CCE0 /* NDMsgListTableView.h */,
+				6A6147042244E2170096CCE0 /* NDMsgListTableView.m */,
+				6A6146FA2244E2170096CCE0 /* NDLiveMsgBassCell.h */,
+				6A6146F62244E2160096CCE0 /* NDLiveMsgBassCell.m */,
+				6A6146FE2244E2170096CCE0 /* NDMsgCommentCell.h */,
+				6A6146FD2244E2170096CCE0 /* NDMsgCommentCell.m */,
+				6A6147002244E2170096CCE0 /* NDMsgGiftCell.h */,
+				6A6147052244E2170096CCE0 /* NDMsgGiftCell.m */,
+				6A6146FB2244E2170096CCE0 /* NDMsgJoinCell.h */,
+				6A6146FF2244E2170096CCE0 /* NDMsgJoinCell.m */,
+				6A6146F72244E2170096CCE0 /* NDMsgNormalCell.h */,
+				6A6146F82244E2170096CCE0 /* NDMsgNormalCell.m */,
+				6A6147012244E2170096CCE0 /* NDMsgRemindCell.h */,
+				6A6147022244E2170096CCE0 /* NDMsgRemindCell.m */,
+				6A6147032244E2170096CCE0 /* NDMsgSynthesizeCell.h */,
+				6A6146F92244E2170096CCE0 /* NDMsgSynthesizeCell.m */,
+			);
+			path = LiveRoomMsg;
+			sourceTree = "<group>";
+		};
+		6A61471A2244EC810096CCE0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6A61470F2244E3C90096CCE0 /* EWLayoutButton.h */,
+				6A61470E2244E3C90096CCE0 /* EWLayoutButton.m */,
+				6AB0327A224B20F6009D9565 /* NDLeveBgView.h */,
+				6AB0327B224B20F6009D9565 /* NDLeveBgView.m */,
+				6AB03287224B5D60009D9565 /* EWLevelManager.h */,
+				6AB03288224B5D60009D9565 /* EWLevelManager.m */,
+				6AB0328A224B600C009D9565 /* UIView+Frame.h */,
+				6AB0328B224B600C009D9565 /* UIView+Frame.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6A63DC4F224DF4550001A665 /* WHDebugTool */ = {
+			isa = PBXGroup;
+			children = (
+				6A63DC6B224DF4620001A665 /* WHDebugConsoleLabel.h */,
+				6A63DC71224DF4620001A665 /* WHDebugConsoleLabel.m */,
+				6A63DC68224DF4620001A665 /* WHDebugCpuMonitor.h */,
+				6A63DC6A224DF4620001A665 /* WHDebugCpuMonitor.m */,
+				6A63DC69224DF4620001A665 /* WHDebugFPSMonitor.h */,
+				6A63DC6D224DF4620001A665 /* WHDebugFPSMonitor.m */,
+				6A63DC72224DF4620001A665 /* WHDebugMemoryMonitor.h */,
+				6A63DC66224DF4620001A665 /* WHDebugMemoryMonitor.m */,
+				6A63DC6F224DF4620001A665 /* WHDebugMonitor.h */,
+				6A63DC65224DF4620001A665 /* WHDebugMonitor.m */,
+				6A63DC6C224DF4620001A665 /* WHDebugTempVC.h */,
+				6A63DC70224DF4620001A665 /* WHDebugTempVC.m */,
+				6A63DC6E224DF4620001A665 /* WHDebugToolManager.h */,
+				6A63DC67224DF4620001A665 /* WHDebugToolManager.m */,
+			);
+			path = WHDebugTool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A6146EA2244DF740096CCE0 /* Build configuration list for PBXNativeTarget "NDLiveMsgRoom" */;
 			buildPhases = (
+				86425C1DC88FC19B1A234EDE /* [CP] Check Pods Manifest.lock */,
 				6A6146BA2244DF730096CCE0 /* Sources */,
 				6A6146BB2244DF730096CCE0 /* Frameworks */,
 				6A6146BC2244DF730096CCE0 /* Resources */,
@@ -257,14 +423,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86425C1DC88FC19B1A234EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NDLiveMsgRoom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A6146BA2244DF730096CCE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6A6146C62244DF730096CCE0 /* ViewController.m in Sources */,
+				6A6147102244E3C90096CCE0 /* EWLayoutButton.m in Sources */,
+				6AB0327C224B20F6009D9565 /* NDLeveBgView.m in Sources */,
+				6A61470C2244E2170096CCE0 /* NDMsgListTableView.m in Sources */,
+				6A61470D2244E2170096CCE0 /* NDMsgGiftCell.m in Sources */,
+				6A6147082244E2170096CCE0 /* NDMsgSynthesizeCell.m in Sources */,
+				6A63DC78224DF4620001A665 /* WHDebugTempVC.m in Sources */,
+				6A63DC75224DF4620001A665 /* WHDebugToolManager.m in Sources */,
+				6A6147132244E69F0096CCE0 /* NDMsgModel.m in Sources */,
+				6A6147092244E2170096CCE0 /* NDMsgCommentCell.m in Sources */,
 				6A6146D12244DF740096CCE0 /* main.m in Sources */,
+				6AB03286224B262D009D9565 /* NDGiftModel.m in Sources */,
+				6AB0328C224B600C009D9565 /* UIView+Frame.m in Sources */,
+				6A61470B2244E2170096CCE0 /* NDMsgRemindCell.m in Sources */,
+				6A63DC77224DF4620001A665 /* WHDebugFPSMonitor.m in Sources */,
+				6A6147062244E2170096CCE0 /* NDLiveMsgBassCell.m in Sources */,
+				6A63DC74224DF4620001A665 /* WHDebugMemoryMonitor.m in Sources */,
+				6A63DC73224DF4620001A665 /* WHDebugMonitor.m in Sources */,
+				6AB03289224B5D60009D9565 /* EWLevelManager.m in Sources */,
+				6A61470A2244E2170096CCE0 /* NDMsgJoinCell.m in Sources */,
+				6A63DC76224DF4620001A665 /* WHDebugCpuMonitor.m in Sources */,
 				6A6146C32244DF730096CCE0 /* AppDelegate.m in Sources */,
+				6A6147192244E7930096CCE0 /* NDUserModel.m in Sources */,
+				6A63DC79224DF4620001A665 /* WHDebugConsoleLabel.m in Sources */,
+				6AB03282224B21B6009D9565 /* NDMsgAttributeModel.m in Sources */,
+				6A6147072244E2170096CCE0 /* NDMsgNormalCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +643,14 @@
 		};
 		6A6146EB2244DF740096CCE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CCAA4C9D1BC593F8C32619 /* Pods-NDLiveMsgRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/ljq/Desktop/NDLiveMsgRoom/NDLiveMsgRoom/PrefixHeader.pch;
 				INFOPLIST_FILE = NDLiveMsgRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +663,14 @@
 		};
 		6A6146EC2244DF740096CCE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F0693E97D7A6E444BC5D56 /* Pods-NDLiveMsgRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/ljq/Desktop/NDLiveMsgRoom/NDLiveMsgRoom/PrefixHeader.pch;
 				INFOPLIST_FILE = NDLiveMsgRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

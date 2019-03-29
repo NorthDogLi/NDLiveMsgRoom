@@ -1,0 +1,50 @@
+//
+//  PrefixHeader.pch
+//  NDLiveMsgRoom
+//
+//  Created by ljq on 2019/3/27.
+//  Copyright © 2019年 ljq. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <YYModel/YYModel.h>
+#import <YYImage/YYImage.h>
+#import <YYText/YYText.h>
+#import <Masonry/Masonry.h>
+#import <SDWebImage/SDWebImageManager.h>
+#import <UIKit/UIKit.h>
+
+#import "UIView+Frame.h"
+
+#define EWWeakSelf                      __weak typeof(self) weakSelf = self;
+
+#define NDViewRadius(view, rads)\
+\
+view.layer.cornerRadius = rads;\
+view.layer.masksToBounds = YES;
+
+
+#define RGBA_OF(rgbValue)   [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define RGBAOF(rgbValue, alphas)   [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:alphas]
+
+/** 消息子类型（subType） */
+typedef NS_ENUM(NSInteger, NDSubMsgType) {
+    NDSubMsgType_Unknown            = 0,
+    /////////// 直播间事件 ///////////
+    NDSubMsgType_Share              = 1,   // 当用户直播间里发起分享时
+    NDSubMsgType_Comment            = 2,   // 任意用户在直播间里发起的弹幕消息
+    NDSubMsgType_At                 = 3,   // @他人
+    NDSubMsgType_MemberEnter        = 4,   // 某个用户进入直播间时
+    NDSubMsgType_Announcement       = 5,   // 系统公告信息
+    NDSubMsgType_Gift_Text          = 6,   // 礼物文本消息
+    NDSubMsgType_Subscription       = 7,   // 关注
+};
+
+
+
+
+
+#endif /* PrefixHeader_pch */
